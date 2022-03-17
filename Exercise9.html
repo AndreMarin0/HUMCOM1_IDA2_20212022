@@ -1,0 +1,62 @@
+<!DOCTYPE html> 										
+<html lang="en">
+    													
+<head>
+	<meta charset="utf-8" />
+	<meta name="author" content="Andre Marin" />
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+	<title>Registration Form Andre Marin - Forms</title>						
+</head>
+
+<body>
+<font face="tahoma">
+	<blockquote>
+
+		<h2>Registration Form </h2>
+		<form>
+			<fieldset>
+				<legend><h4>Information Details</h4></legend>
+				
+				<label for="Name">Name:</label><br>
+				<input type="text" size="30" max="25" name="Name" title="" placeholder="enter full name" /><br />
+				
+				<label for="Age">Age:</label><br>
+				<input type="numer" size="" min=0 max=100 name="Age" title="" /><br />
+				
+				<label for="gender">Sex:</label><br>
+					 <input type="radio" name="gender" value="male" checked> Male<br>
+					 <input type="radio" name="gender" value="female"> Female<br>
+					 <input type="radio" name="gender" value="other"> Other	<br>
+				
+				<label for="email">Email:</label><br>
+				<input type="email" size="25"  name="email" title="" placeholder="asdf123@gmail.com" /><br />
+				
+				<label for="Contact Number">Phone:</label><br>
+				<input type="tel" size="15" max="" name="Contact Number" title="" placeholder="(+639)000-000-000"/><br />
+				
+			</fieldset>
+
+			<fieldset>
+				<legend><h4>Academic Achievements</h4></legend>
+				<input type="checkbox" name="Acad" value="e"> Elementary Graduate<br>
+				<input type="checkbox" name="Acad" value="h"> High school Graduate<br>
+				<input type="checkbox" name="Acad" value="s"> Senior High school Graduate<br>
+				<input type="checkbox" name="Acad" value="c"> College Graduate<br>
+				<input type="checkbox" name="Acad" value="None"> None
+			</fieldset>
+
+			<fieldset>
+			<legend><h4>Others</h4></legend>
+					<legend>Comments</legend>
+					<textarea col=25 rows=7 max=250 name="Comments" title="" placeholder="add comments">
+					</textarea><br />
+					<input type="submit" onclick="alert('Thanks!')" value=" Submit ">
+			</fieldset>
+
+		</form>
+
+	</blockquote>
+</font>
+</body>
+
+</html>
