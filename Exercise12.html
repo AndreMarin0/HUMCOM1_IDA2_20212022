@@ -1,0 +1,115 @@
+<!DOCTYPE html> 										
+<html>
+    													
+<head>
+	<meta charset="utf-8" />
+	<meta name="author" content="Andre Marin" />
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+	<title>Andre Marin - Box model layouts</title>
+    <link rel="stylesheet" type="text/css" href="Exercise12.css">						
+</head>
+
+<body class="body">
+    
+    <div>
+        <div class="header">
+            <h1><p>Header</p></h1>
+
+        <div class="Navigation">
+            <p>
+                <a href="#s1">Water</a>
+                <a href="#s2">Bed</a>
+                <a href="#s3">House</a>
+                <a href="#f">Sources</a>
+            </p>
+        </div>
+    </div>
+
+        <div class="Article"> <h1><b>left inner box</b></h1> <br>
+
+        <div class="Section" id="s1"> <p><b>small header</b></p>
+            <p></p>
+        </div> <br>
+        
+        <div class="longnav" id="s2"> <p><B>long vertical navigation</B></p>
+            <p>A.</p> <br> <br>
+            <p>NAV</p> <BR> <br>
+                <p>NAV</p> <BR> <br>
+                    <p>NAV</p> <BR> <br>
+                        <p>NAV</p> <BR> <br>
+                            <p>NAV</p> <BR> <br>
+                                <p>NAV</p> <BR> <br>
+                                    <p>NAV</p> <BR> <br>
+                                        <p>NAV</p> <BR> <br>
+                                             <p>NAV</p> <BR> <br>
+                                                <p>NAV</p> <BR> <br>
+                                                    <p>NAV</p> <BR> <br>
+        </div>
+        
+        <div class="Section" id="s3"> <p><b>small footer</b></p>
+            <p></p>
+        </div>
+        
+    </div>
+
+        <div class="second"> <h1><b>right inner box</b></h1> <br>
+            
+            <div class="Section" id="s1"> <p><b>small header</b></p>
+                <p></p>
+            </div> <br>
+            
+            <div class="Section" id="s2"> <p><B>Article 1</B></p>
+                <p>A.</p>
+            
+
+                    <div class="inner" id="s1"> <p><b>header</b></p>
+                <p></p>
+                </div>
+                <div class="inner" id="s1"> <p><b>small paragraph</b></p>
+                    <p></p>
+                </div>
+                <div class="inner" id="s1"> <p><b>small paragraph</b></p>
+                    <p></p>
+                </div>
+                <div class="inner" id="s1"> <p><b>small footer</b></p>
+                    <p></p>
+                </div>
+
+            </div>
+
+            <div class="Section" id="s2"> <p><B>Article 2</B></p>
+                <p>A.</p>
+
+                <div class="inner" id="s1"> <p><b>header</b></p>
+                    <p></p>
+                    </div>
+                    <div class="inner2" id="s1"> <p><b>small paragraph</b></p>
+                        <p></p>
+                    </div>
+                    <div class="inner3" id="s1"> <p><b>small paragraph</b></p>
+                        <p></p>
+                    </div>
+                    <div class="inner" id="s1"> <p><b>small footer</b></p>
+                        <p></p>
+                    </div>
+
+            </div>
+            
+            <div class="Section" id="s3"> <p><b>small footer</b></p>
+                <p></p>
+            </div>
+
+        </div>
+
+        
+        <div class="Footer" id="f"> <p>Sources: bottom footer <br>
+            <a href="https://www.merriam-webster.com/dictionary/water">Water</a><br>
+            <a href="https://en.wikipedia.org/wiki/Bed">Bed</a><br>
+            <a href="https://www.habitat.org/stories/what-does-home-mean-to-you">House</a><br>
+        </p>
+        </div>
+    </div>
+
+</body>
+
+</html>
