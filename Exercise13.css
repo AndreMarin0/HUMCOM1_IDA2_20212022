@@ -1,0 +1,62 @@
+*{
+    box-sizing: border-box;
+  }
+
+  .box1 {
+    background-color: #0099ff;
+    color: #ffffff;
+    padding: 15px;
+    float:left;
+    text-align: center;
+  }
+  .box2 {
+    background-color: #3f657e;
+    color: #ffffff;
+    padding: 15px;
+    float:left;
+    text-align: center;
+  }
+
+  .Bigboxmid {
+    background-color: #316e8a;
+    padding: 150px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 14px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  }
+
+  .threebox {
+    background-color: #3bdae6;
+    padding: 50px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 14px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    float:right ;
+  }
+  .fourbox {
+    background-color: #581b81;
+    padding: 35px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 14px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    float:right;
+  }
+
+  @media only screen and (min-width: 320px){
+    .small {width: 100%;}
+    .small1 {width: 25%;}
+  }
+  @media only screen and (min-width: 768px){
+    .mid {width: 25%;}
+    .mid1 {width: 50%;}
+    .mid2 {width: 100%;}
+  }
+  @media only screen and (min-width: 1024px){
+      .big {width: 50%;}
+      .big1 {width: 25%;}
+      .big2 {width: 33.33%;}
+      .big3 {width: 25%;}
+  }
