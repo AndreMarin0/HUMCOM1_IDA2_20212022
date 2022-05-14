@@ -1,0 +1,316 @@
+*{
+    box-sizing: border-box;
+  }
+  html {
+    font-family: "Lucida Sans", sans-serif;
+  }
+  img {
+    width: 100%;
+    height: auto;
+  }
+
+  .navbar{
+    display: flex;
+    width: 100%;   
+    align-items: center;
+    padding: 20px;
+    color: whitesmoke;
+   
+  }
+ 
+  nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 30px;
+  }
+
+  nav ul li a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 14;
+  }
+
+  nav ul li a:hover{
+    color:lightcoral
+  }
+  
+  body{
+    background-image: linear-gradient(to right, #00203FFF, #ADEFD1FF);
+  }
+  .color{
+    color: #504e4e;
+  }
+  .color1{
+    color:whitesmoke;
+  }
+  .pages{
+    align-items: center;
+    text-align: center;  
+    color: whitesmoke;
+    border: solid black;
+    border-radius: 40px;
+    margin-bottom: 10px;
+  }
+  .page1{
+    align-items: center;
+    text-align: center;  
+    color: whitesmoke;
+    margin-bottom: 10px;
+  }
+  button{
+    width:200px;
+    color:#000;
+    font-size: 15px;
+    padding: 12px 0;
+    background: #fff;
+    border: 0;
+    border-radius: 20px;
+    outline:none;
+  }
+  .parent{
+    display: flex;
+    height: auto;
+    max-width: 1300px;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    border: solid black;
+    border-radius: 10px;
+  }
+  .parent1{
+    display: flex;
+    height: auto;
+    max-width: 1300px;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .child{
+    height: 70vh;
+    overflow:hidden;
+    width:400px;
+    border-radius: 10px;
+    border: solid black;
+    padding: 20px;
+    margin: 20px;
+    display: inline;
+    float: left;
+    transform: transform 0.5;
+  }
+  .child:hover{
+    transform: translateY(-10px);
+  }
+  .frontpage{
+    background-image: linear-gradient(to right, #379683,#00203FFF);
+    height: 75vh;
+    padding: 100px;
+    font-size: 20px;
+    margin: 20px;
+    color: #ffffff;
+    text-align: center;
+    overflow:hidden;
+    border-radius: 10px;
+    float: left;
+
+  }
+  .frontpage1{
+    background-color: #279743;
+    height: 75vh;
+    padding: 100px;
+    font-size: 20px;
+    margin: 20px;
+    float:left;
+    color: #ffffff;
+    text-align: center;
+    background-image: url("random objects.png") ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+  }
+  .page{
+    padding: 10px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 14px;
+  }
+  .drink1{
+    background-image: url("drinks1.jpg") ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .drink2{
+    background-image: url("drinks2.jpg") ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .drink3{
+    background-image: url("drinks3.jpg") ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .car1{
+    background-image: url("car1.jpg") ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .car2{
+    background-image: url("car2.jpg") ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .car3{
+    background-image: url("car3.jpg") ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .bread1{
+    background-image: url("bread1.jpg") ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .bread2{
+    background-image: url("bread2.jpg") ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .bread3{
+    background-image: url("bread3.jpg") ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .movie1{
+    background-image: url("movie1.png") ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .movie2{
+    background-image: url("movie2.jpg") ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .movie3{
+    background-image: url("movie3.jpg") ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .games1{
+    background-image: url("game1.png") ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .games2{
+    background-image: url("game2.jpg") ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .games3{
+    background-image: url("game3.jpeg") ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .planet1{
+    background-image: url("planet1.jpg") ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .planet2{
+    background-image: url("planet2.jpg") ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .planet3{
+    background-image: url("planet3.jpg") ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .gemstone1{
+    background-image: url("gemstone1.jpg") ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .gemstone2{
+    background-image: url("gemstone2.jpg") ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .gemstone3{
+    background-image: url("gemstone3.jpg") ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .ball1{
+    background-image: url("ball1.jpg") ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .ball2{
+    background-image: url("ball2.jpg") ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .ball3{
+    background-image: url("ball3.jpg") ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .phone1{
+    background-image: url("phone1.jpg") ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .phone2{
+    background-image: url("phone2.jpg") ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .phone3{
+    background-image: url("phone3.jpg") ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+ 
+  
+  @media only screen and (min-width: 320px){
+    .small {width: 100%;}
+    .small1 {width: 25%;}
+    
+  }
+  @media only screen and (min-width: 768px){
+    .mid {width: 25%;}
+    .mid1 {width: 50%;}
+    .mid2 {width: 100%;}
+  }
+  @media only screen and (min-width: 1024px){
+      .big {width: 50%;}
+      .big1 {width: 25%;}
+      .big2 {width: 33.33%;}
+      .big3 {width: 25%;}
+  }

@@ -1,0 +1,2 @@
+console.log("Andre Marin \nBS Computer Science \n1st Year \nHUMCOM1-IDA2 \nHuman Computer Interaction");
+alert("Andre Marin \nBS Computer Science \n1st Year \nHUMCOM1-IDA2 \nHuman Computer Interaction");
